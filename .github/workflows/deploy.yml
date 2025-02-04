@@ -20,6 +20,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages  
-        folder: frontend
+        folder: frontend/templates
         token: ${{ secrets.GITHUB_TOKEN }}
         clean: true
